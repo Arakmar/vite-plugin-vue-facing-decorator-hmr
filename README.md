@@ -8,7 +8,7 @@ export class MyComp extends Vue{}
 export default toNative(MyComp)
 ```
 
-Not doing that will break Vite HMR on every Bue components.
+Not doing that will break Vite HMR on every Vue components.
 
 But, using toNative totally breaks some IDE (WebStorm : https://youtrack.jetbrains.com/issue/WEB-64939/Vue-3-vue-facing-decorator-toNative).
 

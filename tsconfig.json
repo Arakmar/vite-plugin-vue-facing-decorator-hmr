@@ -4,6 +4,7 @@
     "target": "esnext",
     "module": "ESNext",
     "moduleResolution": "node",
+    "declarationMap": true,
     "strict": true,
     "declaration": true,
     "noUnusedLocals": true,
