@@ -1,5 +1,15 @@
 A Vite plugin fixing HMR support for Vue components using vue-facing-decorator without using the recommended toNative method.
 
+## How to use it
+```javascript
+// vite.config.js
+import vueToNative from "vite-plugin-vue-to-native";
+
+export default {
+  plugins: [vueToNative()]
+}
+```
+
 ## Some context : 
 The vue-facing-decorator library recommends to call this method on every Vue components :
 ```javascript
