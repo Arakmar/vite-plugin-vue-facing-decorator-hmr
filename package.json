@@ -1,0 +1,33 @@
+{
+  "name": "vite-plugin-vue-to-native",
+  "version": "0.1.0",
+  "description": "Automatically add toNative from vue-facing-decorator to Vue components",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm",
+    "lint": "eslint --cache ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arakmar/vite-plugin-vue-to-native.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "vue",
+    "sfc",
+    "js"
+  ],
+  "author": "Yoann Laissus",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-regexp": "^2.3.0",
+    "eslint": "^8.57.0",
+    "eslint-define-config": "^2.1.0",
+    "tsup": "^8.0.2",
+    "typescript": "^4.9.0",
+    "vite": "^4.3.0"
+  }
+}

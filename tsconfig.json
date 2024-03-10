@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext"]
+  },
+  "include": ["src/*", "*.d.ts"],
+  "exclude": ["node_modules", "examples", "dist"]
+}
