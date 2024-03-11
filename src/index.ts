@@ -5,8 +5,10 @@ export default function vueToNative(): Plugin {
     name: 'vue-plugin-to-native',
     transform(code: string, id: string) {
       if (
-        id.match(/\.vue\?.*type=script/)
+        id.includes('.vue')
+        && !id.includes('type=style')
         && !code.includes("toNative")
+        && code.match(/class.*extends Vue/)
       ) {
         const vueFacingImport = '\nimport {toNative} from "vue-facing-decorator";\n';
         return {
