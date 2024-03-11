@@ -1,7 +1,7 @@
 {
-  "name": "vite-plugin-vue-to-native",
-  "version": "1.0.0",
-  "description": "Automatically add toNative from vue-facing-decorator to Vue components",
+  "name": "vite-plugin-vue-facing-decorator-hmr",
+  "version": "1.0.1",
+  "description": "Fix HMR support for Vue components with vue-facing-decorator",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arakmar/vite-plugin-vue-to-native.git"
+    "url": "git+https://github.com/Arakmar/vite-plugin-vue-facing-decorator-hmr.git"
   },
   "keywords": [
     "vite-plugin",

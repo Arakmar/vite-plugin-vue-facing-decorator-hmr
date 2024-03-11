@@ -3,10 +3,10 @@ A Vite plugin fixing HMR support for Vue components using vue-facing-decorator w
 ## How to use it
 ```javascript
 // vite.config.js
-import vueToNative from "vite-plugin-vue-to-native";
+import vueFacingDecoratorHmr from "vite-plugin-vue-facing-decorator-hmr";
 
 export default {
-  plugins: [vueToNative()]
+  plugins: [vueFacingDecoratorHmr()]
 }
 ```
 
