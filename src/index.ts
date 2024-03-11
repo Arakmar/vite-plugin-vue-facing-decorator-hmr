@@ -3,6 +3,8 @@ import {Plugin} from 'vite'
 export default function vueToNative(): Plugin {
   return {
     name: 'vue-plugin-to-native',
+    // This module needs to be applied after Vue so let's force it
+    enforce: 'post',
     transform(code: string, id: string) {
       if (
         id.includes('.vue')
